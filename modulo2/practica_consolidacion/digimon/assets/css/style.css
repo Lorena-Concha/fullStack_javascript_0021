@@ -1,0 +1,23 @@
+* {
+
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,9,121,1) 21%, rgba(0,212,255,1) 100%);
+  
+}
+
+.card:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.fondoCard{
+ background-color: #ead3e9;;
+}
+
+.tittle{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}

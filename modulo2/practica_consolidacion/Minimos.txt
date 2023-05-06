@@ -1,0 +1,19 @@
+Minimos:
+Memoria: 8GB
+Almacenamiento: 175GB
+Procesador: Intel Core i5  
+
+
+Óptimos:
+Memoria: 20GB
+Almacenamiento: 250GB
+Procesador: Intel Core i5/ Ryzen 5
+
+
+Solicitado:
+Memoria: 32GB
+Almacenamiento: 250GB
+Procesador: Intel Core i5/ Ryzen 5
+
+
+Mateo Incapie:
