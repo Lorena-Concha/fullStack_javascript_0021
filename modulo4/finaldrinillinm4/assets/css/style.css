@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.timeline-with {
+    margin: 5px;
+    position: relative;
+    border-left: 2px solid #696868;
+    list-style: none;
+    left: 5%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.timeline-icon::before {
+    position: absolute;
+    left: -40px;
+    content: attr(data-range);
+    font-weight: bold;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -45px;
+    background: rgb(238, 230, 5);
+    border-radius: 50%;
+    width: 21px;
+    height: 20px;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.empty-card {
+    height: 100%;
+}
+
+.empty-card-inner {
+    height: 100%;
+    border: 1px dashed #aaa;
+    background-color: #f8f9fa;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.first-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(239, 41, 19, 0.994);
+    margin-left: 10px;
+}
+.second-circle {
+
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #52c322d8;
+    margin-left: 10px;
+}
+
+.third-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(14, 14, 227, 0.855);
+    margin-left: 10px;
+}
